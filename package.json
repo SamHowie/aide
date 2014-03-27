@@ -1,0 +1,28 @@
+{
+    "name": "aide",
+    "version": "0.0.1",
+    "author": "Sam Howie <samhowie@gmail.com>",
+    "contributors": [
+        {
+            "name": "Sam Howie",
+            "email": "samhowie@gmail.com"
+        }
+    ],
+    "description": "have the Aide do it",
+    "main": "./src/aide",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SamHowie/aide.git"
+    },
+    "dependencies": {
+        "colors": "~0.6.2",
+        "orchestrator": "~0.3.3",
+        "q": "~1.0.0",
+        "minimatch": "~0.2.14",
+        "minimist": "0.0.8"
+    },
+    "engines": {
+        "node": ">=0.6"
+    },
+    "license": "MIT"
+}
